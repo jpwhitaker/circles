@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00D656B2C1ED4C800D53EB2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D656A2C1ED4C800D53EB2 /* SwiftUIView.swift */; };
+		B00D656D2C1ED4EA00D53EB2 /* TouchLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D656C2C1ED4EA00D53EB2 /* TouchLine.swift */; };
+		B00D656F2C1ED94B00D53EB2 /* UnitCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D656E2C1ED94B00D53EB2 /* UnitCircle.swift */; };
+		B00D65712C1EDC5A00D53EB2 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D65702C1EDC5A00D53EB2 /* LabelView.swift */; };
 		B07578252C1C47D200E63D2E /* SwiftMath in Frameworks */ = {isa = PBXBuildFile; productRef = B07578242C1C47D200E63D2E /* SwiftMath */; };
 		B0D6D4832C1A712700810035 /* CirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D4822C1A712700810035 /* CirclesApp.swift */; };
 		B0D6D4852C1A712700810035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D4842C1A712700810035 /* ContentView.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00D656A2C1ED4C800D53EB2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B00D656C2C1ED4EA00D53EB2 /* TouchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchLine.swift; sourceTree = "<group>"; };
+		B00D656E2C1ED94B00D53EB2 /* UnitCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCircle.swift; sourceTree = "<group>"; };
+		B00D65702C1EDC5A00D53EB2 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		B0D6D47F2C1A712700810035 /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6D4822C1A712700810035 /* CirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesApp.swift; sourceTree = "<group>"; };
 		B0D6D4842C1A712700810035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00D65692C1ED4B800D53EB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00D656A2C1ED4C800D53EB2 /* SwiftUIView.swift */,
+				B00D656C2C1ED4EA00D53EB2 /* TouchLine.swift */,
+				B00D656E2C1ED94B00D53EB2 /* UnitCircle.swift */,
+				B00D65702C1EDC5A00D53EB2 /* LabelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B0D6D4762C1A712700810035 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +115,7 @@
 		B0D6D4812C1A712700810035 /* Circles */ = {
 			isa = PBXGroup;
 			children = (
+				B00D65692C1ED4B800D53EB2 /* Views */,
 				B0D6D4822C1A712700810035 /* CirclesApp.swift */,
 				B0D6D4842C1A712700810035 /* ContentView.swift */,
 				B0D6D4862C1A712800810035 /* Assets.xcassets */,
@@ -266,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D6D4852C1A712700810035 /* ContentView.swift in Sources */,
+				B00D656F2C1ED94B00D53EB2 /* UnitCircle.swift in Sources */,
+				B00D656D2C1ED4EA00D53EB2 /* TouchLine.swift in Sources */,
 				B0D6D4832C1A712700810035 /* CirclesApp.swift in Sources */,
+				B00D656B2C1ED4C800D53EB2 /* SwiftUIView.swift in Sources */,
+				B00D65712C1EDC5A00D53EB2 /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
