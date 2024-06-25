@@ -12,6 +12,7 @@
 		B00D656F2C1ED94B00D53EB2 /* UnitCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D656E2C1ED94B00D53EB2 /* UnitCircle.swift */; };
 		B00D65712C1EDC5A00D53EB2 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D65702C1EDC5A00D53EB2 /* LabelView.swift */; };
 		B07578252C1C47D200E63D2E /* SwiftMath in Frameworks */ = {isa = PBXBuildFile; productRef = B07578242C1C47D200E63D2E /* SwiftMath */; };
+		B0C88F7B2C2AA65900835268 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C88F7A2C2AA65900835268 /* DataView.swift */; };
 		B0D6D4832C1A712700810035 /* CirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D4822C1A712700810035 /* CirclesApp.swift */; };
 		B0D6D4852C1A712700810035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D4842C1A712700810035 /* ContentView.swift */; };
 		B0D6D4872C1A712800810035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D6D4862C1A712800810035 /* Assets.xcassets */; };
@@ -19,6 +20,8 @@
 		B0D6D4942C1A712800810035 /* CirclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D4932C1A712800810035 /* CirclesTests.swift */; };
 		B0D6D49E2C1A712800810035 /* CirclesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D49D2C1A712800810035 /* CirclesUITests.swift */; };
 		B0D6D4A02C1A712800810035 /* CirclesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6D49F2C1A712800810035 /* CirclesUITestsLaunchTests.swift */; };
+		B0F248AA2C2A8976008B29FB /* UnitCircleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F248A92C2A8976008B29FB /* UnitCircleModel.swift */; };
+		B0F248AD2C2A8B63008B29FB /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F248AC2C2A8B63008B29FB /* HapticFeedback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,7 @@
 		B00D656C2C1ED4EA00D53EB2 /* TouchLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchLine.swift; sourceTree = "<group>"; };
 		B00D656E2C1ED94B00D53EB2 /* UnitCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCircle.swift; sourceTree = "<group>"; };
 		B00D65702C1EDC5A00D53EB2 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		B0C88F7A2C2AA65900835268 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		B0D6D47F2C1A712700810035 /* Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6D4822C1A712700810035 /* CirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesApp.swift; sourceTree = "<group>"; };
 		B0D6D4842C1A712700810035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		B0D6D4992C1A712800810035 /* CirclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6D49D2C1A712800810035 /* CirclesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesUITests.swift; sourceTree = "<group>"; };
 		B0D6D49F2C1A712800810035 /* CirclesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0F248A92C2A8976008B29FB /* UnitCircleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCircleModel.swift; sourceTree = "<group>"; };
+		B0F248AC2C2A8B63008B29FB /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +90,21 @@
 		B00D65692C1ED4B800D53EB2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B0C88F792C2AA64200835268 /* New Group */,
 				B00D656A2C1ED4C800D53EB2 /* SwiftUIView.swift */,
 				B00D656C2C1ED4EA00D53EB2 /* TouchLine.swift */,
 				B00D656E2C1ED94B00D53EB2 /* UnitCircle.swift */,
 				B00D65702C1EDC5A00D53EB2 /* LabelView.swift */,
+				B0C88F7A2C2AA65900835268 /* DataView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B0C88F792C2AA64200835268 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		B0D6D4762C1A712700810035 = {
@@ -115,6 +130,8 @@
 		B0D6D4812C1A712700810035 /* Circles */ = {
 			isa = PBXGroup;
 			children = (
+				B0F248AB2C2A8B4B008B29FB /* Services */,
+				B0F248A82C2A8949008B29FB /* Models */,
 				B00D65692C1ED4B800D53EB2 /* Views */,
 				B0D6D4822C1A712700810035 /* CirclesApp.swift */,
 				B0D6D4842C1A712700810035 /* ContentView.swift */,
@@ -147,6 +164,22 @@
 				B0D6D49F2C1A712800810035 /* CirclesUITestsLaunchTests.swift */,
 			);
 			path = CirclesUITests;
+			sourceTree = "<group>";
+		};
+		B0F248A82C2A8949008B29FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0F248A92C2A8976008B29FB /* UnitCircleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0F248AB2C2A8B4B008B29FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B0F248AC2C2A8B63008B29FB /* HapticFeedback.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C88F7B2C2AA65900835268 /* DataView.swift in Sources */,
 				B0D6D4852C1A712700810035 /* ContentView.swift in Sources */,
 				B00D656F2C1ED94B00D53EB2 /* UnitCircle.swift in Sources */,
 				B00D656D2C1ED4EA00D53EB2 /* TouchLine.swift in Sources */,
 				B0D6D4832C1A712700810035 /* CirclesApp.swift in Sources */,
+				B0F248AA2C2A8976008B29FB /* UnitCircleModel.swift in Sources */,
+				B0F248AD2C2A8B63008B29FB /* HapticFeedback.swift in Sources */,
 				B00D656B2C1ED4C800D53EB2 /* SwiftUIView.swift in Sources */,
 				B00D65712C1EDC5A00D53EB2 /* LabelView.swift in Sources */,
 			);

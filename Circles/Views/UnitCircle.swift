@@ -14,7 +14,8 @@ struct UnitCircle: View {
   ]
   @State private var animateLines = false
   @State private var animateOpacity = false
-  
+  @State private var animateDots = false
+
   
   
   var body: some View {
@@ -38,8 +39,11 @@ struct UnitCircle: View {
       }
       
       
-      ForEach(Array(zip(angles, angleLabels)), id: \.0) { angle, angleLabel in
+      ForEach(Array(zip(angles.enumerated(), angleLabels)), id: \.0.offset) { indexAndAngle, angleLabel in
+        let (index, angle) = indexAndAngle
         unitCirclePoints(from: center, radius: radius, angle: angle, angleLabel: angleLabel)
+          .opacity(animateDots ? 1.0 : 0.0)
+          .animation(Animation.linear(duration: 0.5).delay((0.14) + Double(index) * 0.15), value: animateDots)
       }
       
       ForEach(Array(zip(angles, angleLabels)), id: \.0) { angle, angleLabel in
@@ -50,6 +54,7 @@ struct UnitCircle: View {
       DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
         animateLines = true
         animateOpacity = true
+        animateDots = true
       }
     }
   }
